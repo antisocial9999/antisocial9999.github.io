@@ -1,0 +1,58 @@
+body {
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.nav { 
+    background: #000;
+    height: 80px; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
+  .nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+  }
+  
+  .nav ul li {
+    color: #fff;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s; 
+  }
+  
+  .btn:hover, .nav ul li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+  }
+
+  .buttonslash:hover {
+    background-color: #117bff;
+    cursor: pointer;
+    transition: background .5s;
+    animation: reverse;
+  }
+
+.Home {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.Contact {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Socials {
+    color: #fff;
+    text-decoration: none;
+  }
+
